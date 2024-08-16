@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# CNAPP Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+CNAPP Dashboard is a React-based web application that provides a customizable dashboard for Cloud Native Application Protection Platform (CNAPP) data visualization. It allows users to view and manage various widgets displaying cloud security information across different categories.
 
-## Available Scripts
+## Features
+- Dynamic dashboard with customizable widgets
+- Multiple categories for organizing widgets (CSPM, CWPP, Registry Scan)
+- Add, remove, and customize widgets
+- Search functionality for quick widget access
+- Various chart types including pie charts, donut charts, and bar charts
 
-In the project directory, you can run:
 
-### `npm start`
+## Tools and Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Front-end JavaScript library for building user interfaces
+- **Redux**: State management library for JavaScript apps
+- **Redux Toolkit**: The official, opinionated, batteries-included toolset for efficient Redux development
+- **React Router**: Declarative routing for React applications
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces
+- **Chart.js**: Simple yet flexible JavaScript charting library
+- **React-Chartjs-2**: React wrapper for Chart.js
+- **Axios**: Promise-based HTTP client for the browser and Node.js
+- **ESLint**: Static code analysis tool for identifying problematic patterns in JavaScript code
+- **Prettier**: Code formatter to ensure consistent code style
+- **Jest**: JavaScript testing framework
+- **React Testing Library**: Testing utilities for React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Install dependencies:
+4. Start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. The main dashboard displays widgets organized by category.
+2. Use the "Add Widget" button to add new widgets to a category.
+3. Customize widget names and content when adding new widgets.
+4. Use the search bar to filter widgets by name.
+5. Remove widgets using the "×" button on each widget.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `Dashboard`: Main component that renders the entire dashboard
+- `CategorySection`: Renders a section of widgets for a specific category
+- `Widget`: Individual widget component that renders different types of charts or custom content
+- `AddWidgetModal`: Modal for adding new widgets to the dashboard
+- `Charts`: used Recharts in Charts we have pie charts bar charts doughnt charts
+## State Management
 
-### `npm run eject`
+This project uses Redux for state management. The main slice is `dashboardSlice`, which handles actions for:
+- Adding widgets
+- Removing widgets
+- Opening/closing the Add Widget modal
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Styling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project uses Tailwind CSS for styling. Ensure you have Tailwind CSS properly configured in your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Testing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run the test suite with:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Screenshots
+(/Users/abhi/Superset/client/public/image1.png)
