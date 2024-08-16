@@ -65,4 +65,4 @@ The project uses Tailwind CSS for styling. Ensure you have Tailwind CSS properly
 Run the test suite with:
 
 ## Screenshots
-(/Users/abhi/Superset/client/public/image1.png)
+![Login](/Users/abhi/Superset/client/public/image1.png)
