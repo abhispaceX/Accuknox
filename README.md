@@ -65,4 +65,4 @@ The project uses Tailwind CSS for styling. Ensure you have Tailwind CSS properly
 Run the test suite with:
 
 ## Screenshots
-![dashboard](/image1.png)
+![dashboard](public/image1.png)
