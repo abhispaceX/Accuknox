@@ -66,3 +66,5 @@ Run the test suite with:
 
 ## Screenshots
 ![dashboard](public/image1.png)
+![dashboard](public/image2.png)
+![dashboard](public/image3.png)
