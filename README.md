@@ -65,4 +65,4 @@ The project uses Tailwind CSS for styling. Ensure you have Tailwind CSS properly
 Run the test suite with:
 
 ## Screenshots
-![dashboard](/Users/abhi/AccuKnox/client/public/image1.png?raw=true)
+![dashboard](/image1.png)
