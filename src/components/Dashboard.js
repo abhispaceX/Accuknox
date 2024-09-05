@@ -16,7 +16,7 @@ function Dashboard() {
     widgets: category.widgets.filter(widget =>
       widget.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
-  })).filter(category => category.widgets.length > 0);
+  }))
 
   return (
     <div className=' bg-blue-50 shadow-lg p-4 rounded-md' >

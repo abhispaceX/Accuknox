@@ -83,13 +83,13 @@ const initialState = {
   ],
 };
 
-// ... (previous code remains the same)
+
 
 export const dashboardSlice = createSlice({
     name: 'dashboard',
     initialState,
     reducers: {
-      openAddWidgetModal: (state, action) => {
+      openAddWidgetModal: (state) => {
         state.isAddWidgetModalOpen = true;
         
       },
